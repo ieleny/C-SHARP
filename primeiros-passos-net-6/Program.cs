@@ -7,7 +7,7 @@ using PrimeirosPassosNet.estruturaDados;
 
 namespace PrimeirosPassosNet // Note: actual namespace depends on the project name.
 {
-    internal class Program
+    static class Program
     {
         static void Main()
         {
