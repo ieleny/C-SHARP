@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Adicionar os pacotes -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType> <!-- Irar gerar o exe -->
+    <TargetFramework>net6.0</TargetFramework> <!-- Versão do dotNet.-->
+    <RootNamespace>primeiros_passos_net_6</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings> <!-- Adicionado no net6.0, https://www.hanselman.com/blog/implicit-usings-in-net-6-->
+    <Nullable>enable</Nullable> <!-- Pode ser nullo -->
+  </PropertyGroup>
+
+</Project>
