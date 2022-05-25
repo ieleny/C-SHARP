@@ -11,17 +11,18 @@ namespace PrimeirosPassosNet // Note: actual namespace depends on the project na
     {
         static void Main()
         {
-            // Primeira Aula
-            int quantidadeVezes = 100;
+            /* Aula introdutoria
+                int quantidadeVezes = 100;
 
-            for(int contador = 1; contador <= quantidadeVezes; contador++){
-                Console.WriteLine(" Contador: " + contador + " Quantidade de vezes: " +  quantidadeVezes);
-                Console.WriteLine($" Contador: {contador} Quantidade de vezes: {quantidadeVezes}");
-            }
+                for(int contador = 1; contador <= quantidadeVezes; contador++){
+                    Console.WriteLine(" Contador: " + contador + " Quantidade de vezes: " +  quantidadeVezes);
+                    Console.WriteLine($" Contador: {contador} Quantidade de vezes: {quantidadeVezes}");
+                }
 
-            Console.WriteLine("/");
+                Console.WriteLine("/"); 
+            */
 
-            // Segunda aula
+            /* Aula Pilha
             var pilha = new Pilha();
 
             pilha.Empilha(2);
@@ -35,6 +36,18 @@ namespace PrimeirosPassosNet // Note: actual namespace depends on the project na
             // Testar o exception
             // Console.WriteLine(pilha.Desempilha());
 
+            */
+
+            /* Fila */
+            var fila = new Fila();
+            var nomeMusica = "Dont stop the music";
+            fila.Enfileirar(nomeMusica);
+
+            nomeMusica = "Como eu quero";
+            fila.Enfileirar(nomeMusica);
+
+            fila.Desenfileirar();
+            fila.Desenfileirar();
         }
     }
 }
